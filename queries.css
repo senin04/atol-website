@@ -1,0 +1,286 @@
+@media only screen and (max-width: 1500px) {
+    .container_footer {
+        padding: 0 1rem;
+    }
+
+    .container {
+        padding: 0 1rem;
+    }
+
+    .market_making {
+        margin-right: 40px;
+    }
+}
+
+@media only screen and (max-width: 1350px) {
+    .developer .flex_wrap {
+        flex-direction:column;
+        flex-wrap: nowrap;
+    }
+
+    .timing .flex_column {
+        flex-wrap: wrap;
+    }
+
+    .vision {
+        margin-bottom: 86px;
+    }
+
+    .vision .flex_row div {
+        margin-bottom: 0;
+    }
+
+    .developer h3 {
+        margin-bottom: 30px;
+    }
+
+    .prava .width_550 {
+        margin-top: 48px;
+    }
+
+    .lava h3 {
+        margin-top: 511px;
+    }
+
+    .text_a_img .flex img {
+        margin-left: 0;
+    }
+
+}
+
+
+@media only screen and (max-width: 1250px) {
+    .container {
+        padding: 0 1rem;
+    }
+
+    header .title {
+        font-size: 60px;
+        line-height: 75%;
+    }
+
+    .invest_climate{
+        flex-direction: column;
+    }
+
+    .invest_climate_txt {
+        margin-right: 0;
+    }
+
+    .invest_climate .subtitle {
+        margin-top: 30px;
+    }
+
+    .zlte_pozadie {
+        margin-top: 50px;
+    }
+
+    .invest_mapa, .ciara_img, .ciarka_img, .map_pin {
+        display: none;
+    }
+
+    .investment_text1 {
+        max-width: 600px;
+    }
+
+    .market_making {
+        margin-right: 40px;
+    }
+    
+
+    .container-box {
+        justify-content: center;
+    }
+
+    .invest_thesis {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .thesis_text {
+        margin-top: 20px;
+    }
+
+    .opportunity .flex_row {
+        flex-direction: column;
+    }
+
+    .work_position {
+        margin-bottom: 16px;
+    }
+
+    .work_position .flex_row {
+        flex-direction: row;
+    }
+
+    .oport_button {
+        justify-content: flex-start;
+    }
+
+    h1 {
+        font-size: 44px;
+    }
+
+    h2 {
+        font-size: 38px;
+        line-height: 100%;
+    }
+
+    h3 {
+        font-size: 26px;
+        line-height: 110%;
+    }
+
+    h4 {
+        font-size: 20px;
+    }
+
+    .text_a_img img {
+        position: relative;
+        left: -20px;
+        width: 100%;
+    } 
+
+    .customers {
+        margin-top: 0;
+    }
+
+    .header_img2 {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .footer_logo_line {
+        flex-direction: column;
+    }
+
+    .text_a_img .flex {
+        flex-wrap: wrap;
+    } 
+
+    .text_a_img img {
+        margin-bottom: 40px;
+    }
+
+    .text_a_img p {
+        margin-top: 20px;
+        margin-bottom: 44px;
+    }
+
+    .coloured_text_h .container {
+        flex-direction: column;
+    }
+
+    .impact img {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 920px) {
+    header nav {
+        display: none;
+    }
+
+    .not_traditional {
+        flex-direction: column;
+        margin-bottom: 60px;
+    }
+
+    .not_traditional h2{
+        margin-bottom: 30px;
+    }
+
+    #traditional_ciara, #traditional_islands {
+        display: none;
+    }
+
+    .belive_box_right {
+        margin: 40px 0;
+    }
+
+    .reaching_world {
+        margin-top: 160px;
+    }
+
+    .reaching_p {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 794px) {
+    .invest_kocka, .kocka {
+        margin-right: 0;
+    }
+
+    .form textarea {
+        width: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 670px) {
+    .menu_footer {
+        flex-direction: column;
+    }
+
+    .footer_grid {
+        flex-direction: column;
+    }
+
+    .menu_footer li {
+        margin-top: 10px;
+    }
+
+    .submenu_footer {
+        margin-top: 0;
+    }
+
+    .submenu_footer li {
+        margin-bottom: 5px;
+    }
+
+    .pas_future {
+        flex-direction: column;
+        padding-bottom: 78px;
+        display: block;
+    }
+
+    .pas_future h2 {
+        margin-bottom: 48px;
+    }
+
+    .maldives {
+        position: relative;
+        width: 1000px;
+        left: -190px;
+        display: block;
+    }
+
+    /* .customers {
+        width: 100px;
+    } */
+
+    .awaits .flex_space_between {
+        flex-direction: column;
+    }
+
+    .awaits h2 {
+        margin-bottom: 34px;
+    }
+
+}
+
+@media only screen and (max-width: 550px) {
+    .form .flex_space_between {
+        flex-direction: column;
+    }
+
+    .form h2 {
+        margin-bottom: 30px;
+    }
+
+    .h-f {
+        justify-content: center;
+    }
+}
